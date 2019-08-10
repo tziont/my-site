@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React  from 'react'
 
-export default class contact extends Component {
-    render() {
+ const contact = () => {
         return (
             <div>
                 <h1>
@@ -9,6 +8,7 @@ export default class contact extends Component {
                 </h1>
             </div>
         )
-    }
 }
+
+export default contact
 
